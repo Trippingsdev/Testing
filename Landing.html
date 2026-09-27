@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* Reset margins and set a dark background */
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
+        }
+
+        /* Styling for the GIFs */
+        .gif-img {
+            width: 100%;
+            height: 100vh; /* Forces each GIF to take up the full height of the screen */
+            object-fit: cover; /* Crops perfectly without stretching */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- container-fluid allows it to span the full width of the screen, p-0 removes default padding -->
+    <div class="container-fluid p-0">
+        <!-- g-0 removes the gaps/gutters between the columns -->
+        <div class="row g-0">
+            
+            <!-- Column sizes change based on screen width -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="https://media.tenor.com/-pz0HTTJ7R0AAAAi/elated-yay.gif" alt="Yay GIF" class="gif-img">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="https://media1.tenor.com/m/V4ylrQP_LbIAAAAd/happy-cat.gif" alt="Happy Cat GIF" class="gif-img">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="https://media1.tenor.com/m/51bRAF_kH5QAAAAd/ksungminz-stan-twitter.gif" alt="Dancing GIF" class="gif-img">
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
